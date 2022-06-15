@@ -1,0 +1,119 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+/* background colors- rgba(31, 119, 177, 0.8); */
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  width: 100px;
+}
+
+/* .............Hero section...............*/
+#hero-container {
+  border: 2px solid rgba(31, 119, 177, 0.8);
+  margin-bottom: 5px;
+  height: 600px;
+
+  background-image: url("images/salford.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-title-container {
+  background: rgba(31, 119, 177, 0.8);
+  padding: 5px;
+  border-radius: 16px;
+}
+
+.hero-title {
+  color: white;
+  font-size: 48px;
+  margin: 0;
+  text-shadow: 0px 0px 5px black;
+  padding: 5px 10px;
+  width: 500px;
+  letter-spacing: 1.8px;
+}
+
+.hero-text {
+  background: rgba(31, 119, 177, 0.8);
+  width: 900px;
+  color: white;
+  /* text-shadow: 0px 0px 5px black; */
+  padding: 12px;
+  border-radius: 16px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+/* .............Activities section...............*/
+
+#activities-container {
+  border: 2px solid green;
+  margin-bottom: 5px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.activities-title {
+  background: rgba(31, 119, 177, 0.8);
+  color: white;
+  border-radius: 12px;
+  padding: 12px;
+  border: 2px solid rgba(31, 119, 177, 0.8);
+  width: 400px;
+  margin: 20px auto; 0px;
+  text-shadow: 0 0 10px black;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  flex-basis: 100%;
+  max-width: 300px;
+  padding: 16px;
+}
+
+.card-heading-wrapper {
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.card-img {
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+}
+
+/* .............Guide section...............*/
+
+#guide-container {
+  border: 2px solid red;
+}
